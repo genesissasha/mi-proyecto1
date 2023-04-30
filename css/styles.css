@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box ;
+    background-color: #fbfbfb;
+    font-family: 'Ysabeau', sans-serif;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+.nav_img_logo{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.menu-opciones{
+    margin: 30px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.figue_imagen_principal{
+    justify-content: center;
+}
+
+.imagen-principal{
+    width: 400px;
+    border-radius: 50%;
+}
+
+h1{
+    color:blueviolet;
+    font-size: 36px;
+}
+
+h2 h3{
+    font-size: 28px;
+}
+
+p ul{
+    font-size: 18px;
+}
+
+.boton-personalizado{
+    background-color: blueviolet;
+    color:#fbfbfb;
+    padding:10px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor:pointer
+
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    }
+
+.fondo{
+    background-color:violet;
+    height: 100%;
+}
+
+#contactos-1 {
+    margin-top: 15px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    }
+
+#contactos-1 a img{
+    width: 80px;
+    height: 80px;
+}
